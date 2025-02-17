@@ -29,23 +29,24 @@
 
 	// 3. 
 
-// let userBirth = parseInt(prompt(`year of birth`));
-// let userLive = prompt(`where do you live`);
-// let userSport = prompt(`what is your favorite sport`);
-// switch(userLive){
-// 	case 'Kiev':
-// 		alert(`My year of birth ${userBirth} is from capital of Ukraine and my favorite sport ${userSport}`);
-// 		break;
-// 	case 'Washington':
-// 		alert(`My year of birth ${userBirth} is from capital of USA and my favorite sport ${userSport}`);
-// 		break;
-// 	case 'London':
-// 		alert(`My year of birth ${userBirth} is from capital of UK and my favorite sport ${userSport}`);
-// 		break;
-// 	default:
-// 		alert(`My year of birth ${userBirth} is from ${userLive} and my favorite sport ${userSport}`);
-// 		break;
-// }
+let userBirth = parseInt(prompt(`year of birth`));
+let userLive = prompt(`where do you live`);
+let userSport = prompt(`what is your favorite sport`);
+let userAge = 2025 - userBirth;
+switch(userLive){
+	case 'Kiev':
+		alert(`My age ${userAge} is from capital of Ukraine and my favorite sport ${userSport}`);
+		break;
+	case 'Washington':
+		alert(`My age ${userAge} is from capital of USA and my favorite sport ${userSport}`);
+		break;
+	case 'London':
+		alert(`My age ${userAge} is from capital of UK and my favorite sport ${userSport}`);
+		break;
+	default:
+		alert(`My age ${userAge} is from ${userLive} and my favorite sport ${userSport}`);
+		break;
+}
 
 	//4. Переписати код нижче з використанням конструкції switch…case
 	// if(numOrStr === null) {
